@@ -1,8 +1,13 @@
-import React from 'react'
-
+import Head from 'next/head'
 const About = () => {
     return (
-        <div>About</div>
+        <>
+            <Head>
+                <title>About</title>
+                <meta name='description' content='about me' />
+            </Head>
+            <div>About</div>
+        </>
     )
 }
 
